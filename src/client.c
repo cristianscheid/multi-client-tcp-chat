@@ -60,7 +60,7 @@ int main(int argc, char **argv)
         return EXIT_FAILURE;
     }
 
-    printf("\n\nYou're all set! To send a message, just type and press Enter. Press Ctrl+C to quit.\n\n");
+    printf("\n\nYou're all set! To send a message, just type and hit Enter. Press Ctrl+C to quit.\n\n");
 
     bool client_is_running = true;
     while (client_is_running)
