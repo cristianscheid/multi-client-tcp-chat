@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a simple, terminal-based, multi-client TCP chat built using the C programming language and the SDL (Simple DirectMedia Layer) library, specifically the SDL_net module. Clients can connect to the server, send and receive messages, and communicate in real time.
+This project is a simple, terminal-based multi-client TCP chat application, developed using the C programming language and the SDL (Simple DirectMedia Layer) library, specifically the SDL_net module. Clients can connect to the server, send and receive messages, and chat in real time.
 
 ## Features
 
@@ -42,7 +42,7 @@ To get started with this project, follow the steps below:
    - OpenSUSE:
 
      ```
-     sudo zypper install gcc make SDL2_net-devel
+     sudo zypper install gcc make SDL2-devel SDL2_net-devel
      ```
 
    - Arch Linux:
@@ -76,19 +76,17 @@ To get started with this project, follow the steps below:
 
 5. **Run the client(s)**
 
-   - Open a new terminal instance for each client you want to run. You can open up to 10 client instances at once. To start a client, run the following command in each terminal:
-
    ```
    ./build/client
    ```
 
+   - Open a new terminal for each client you want to connect to the server. You can start up to 10 clients simultaneously.
+
 ## Usage
 
-Once the server is running, open the clients, set your name, and start typing. The server will display all the messages it receives, while the clients will see the messages sent by other clients connected to the same server, just like in a chat.
+Once the server is running, open the client(s), set your name, type a message, and hit Enter. The server will display all received messages, while clients will see messages sent by other connected clients, just like a chat. To fully test the functionality, connect two or more clients. To stop the server or quit a client, simply press Ctrl + C.
 
-To see the full functionality, connect two or more clients. To stop the server or quit a client, simply press Ctrl + C.
-
-By default, the server runs on 127.0.0.1 and port 2000. If you need to change these values, modify the SERVER_HOST and SERVER_PORT constants in both the client.c and server.c files. After making changes, run make clean and then make to regenerate the executables.
+By default, the server runs on `127.0.0.1` and port `2000`. To change these values, modify the `SERVER_HOST` and `SERVER_PORT` constants in both the `client.c` and `server.c` files. After making changes, run `make clean` followed by `make` to regenerate the executables.
 
 ## License
 
