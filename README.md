@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a simple, terminal-based, multi-client TCP chat server built using the C programming language and the SDL (Simple DirectMedia Layer) library, specifically the SDL_net module. Clients can connect to the server, send and receive messages, and communicate in real time.
+This project is a simple, terminal-based, multi-client TCP chat built using the C programming language and the SDL (Simple DirectMedia Layer) library, specifically the SDL_net module. Clients can connect to the server, send and receive messages, and communicate in real time.
 
 ## Features
 
