@@ -19,6 +19,8 @@ This project is a simple, terminal-based, multi-client TCP chat server built usi
 
 ## Visuals
 
+https://github.com/user-attachments/assets/975ca32a-b586-4713-a091-89f5eef4a9b7
+
 ## Installation
 
 To get started with this project, follow the steps below:
