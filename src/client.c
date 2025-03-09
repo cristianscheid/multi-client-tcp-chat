@@ -46,7 +46,7 @@ int main(int argc, char **argv)
 
     SDLNet_TCP_AddSocket(socket_set, client_socket);
 
-    printf("Welcome to the TCP Chat!\n\n");
+    printf("Welcome to the Multi-Client TCP Chat!\n\n");
 
     printf("Please enter your name: ");
     scanf("%[^\n]", buffer);
