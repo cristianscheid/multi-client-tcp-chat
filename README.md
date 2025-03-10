@@ -19,7 +19,7 @@ This project is a simple, terminal-based multi-client TCP chat application, deve
 
 ## Visuals
 
-https://github.com/user-attachments/assets/975ca32a-b586-4713-a091-89f5eef4a9b7
+https://github.com/user-attachments/assets/64f098e1-743c-4d32-9ed2-c7db2b385e1a
 
 ## Installation
 
