@@ -86,7 +86,7 @@ To get started with this project, follow the steps below:
 
 Once the server is running, open the client(s), set your name, type a message, and hit Enter. The server will display all received messages, while clients will see messages sent by other connected clients, just like a chat. To fully test the functionality, connect two or more clients. To stop the server or quit a client, simply press Ctrl + C.
 
-By default, the server runs on `127.0.0.1` and port `2000`. To change these values, modify the `SERVER_HOST` and `SERVER_PORT` constants in both the `client.c` and `server.c` files. After making changes, run `make clean` followed by `make` to regenerate the executables.
+By default, the server runs on `127.0.0.1` and port `2000`. To change these values, modify the `SERVER_HOST` and `SERVER_PORT` constants in both the `src/client.c` and `src/server.c` files. After making changes, run `make clean` followed by `make` to regenerate the executables.
 
 ## License
 
