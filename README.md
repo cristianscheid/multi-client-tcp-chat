@@ -56,8 +56,8 @@ To get started with this project, follow the steps below:
 2. **Clone the repository**
 
    ```
-   git clone https://github.com/cristianscheid/space-crusher.git
-   cd space-crusher
+   git clone https://github.com/cristianscheid/multi-client-tcp-chat.git
+   cd multi-client-tcp-chat
    ```
 
 3. **Build the project**
@@ -69,7 +69,7 @@ To get started with this project, follow the steps below:
 4. **Run the server**
 
    ```
-   ./build/space-crusher
+   ./build/server
    ```
 
    - This will start the server, which listens for incoming client connections.
