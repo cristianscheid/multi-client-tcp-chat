@@ -66,27 +66,42 @@ To get started with this project, follow the steps below:
    make
    ```
 
-4. **Run the server**
+## Usage
+
+1. **Start the server**
 
    ```
    ./build/server
    ```
 
-   - This will start the server, which listens for incoming client connections.
+   - You should see the message: "Server is up and running."
+   - The server listens on 127.0.0.1:2000 (localhost).
 
-5. **Run the client(s)**
+2. **Optional - Change the server address on the client (for connections from another machine)**
+
+   - By default, clients connect to 127.0.0.1 (localhost).
+   - To connect from another machine, modify the `SERVER_HOST` constant in `src/client.c` with the server's IP address.
+   - After making the change, run `make clean` and `make` to rebuild the project.
+   - Ensure the firewall on both the server and client allows traffic on port 2000.
+
+3. **Start the client(s)**
 
    ```
    ./build/client
    ```
 
-   - Open a new terminal for each client you want to connect to the server. You can start up to 10 clients simultaneously.
+   - You should see the message: "Welcome to the Multi-Client TCP Chat!"
+   - Open a new terminal for each client you want to connect (up to 10 clients).
 
-## Usage
+4. **Interact with the clients**
 
-Once the server is running, open the client(s), set your name, type a message, and hit Enter. The server will display all received messages, while clients will see messages sent by other connected clients, just like a chat. To fully test the functionality, connect two or more clients. To stop the server or quit a client, simply press Ctrl + C.
+   - Set your name and send messages in the chat.
+   - The server will display all received messages.
+   - Clients will see messages sent by others.
 
-By default, the server runs on `127.0.0.1` and port `2000`. To change these values, modify the `SERVER_HOST` and `SERVER_PORT` constants in both the `src/client.c` and `src/server.c` files. After making changes, run `make clean` followed by `make` to regenerate the executables.
+5. **To stop**
+
+   - Press Ctrl + C to stop the server or exit a client.
 
 ## License
 
